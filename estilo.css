@@ -1,0 +1,84 @@
+/* Regla 1 */
+/* En el elemento `*` añade un font-family de "Quicksand', sans-serif" y que tenga el color negro */
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+/* Regla 2 */
+/* En el elemento `body` añade un margen del 0% y que todo el texto este alineada en el centro */
+
+body{
+margin: 0%;
+text-align: center;
+}
+
+/* Regla 3
+En el elemento `h1` añade un "text-decoration: underline" un "text-decoration-color" de color negro y que el tamaño de la fuente sea de 55 pixeles */
+
+h1{
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-size: 55px;
+}
+
+/* Regla 4 */
+/* En el elemento `h2` el tamaño de la fuente sea de 30 pixeles */
+
+h2{
+    font-size: 30px;
+}
+
+/* Regla 5 */
+/* En el elemento `img` pon una altura de 400 pixeles, 550 pixeles de ancho y un border-radius de 200 pixeles */
+
+img{
+    height: 400px;
+    width: 550px;
+    border-radius: 200px;
+}
+
+/* Regla 6 */
+/* En el elemento `table` pon un ancho del 50% y tendra un pading solo a la derecha y a la izquierda del 45%  */
+
+table{
+    width: 50%;
+    padding-right: 45%;
+    padding-left: 45%;
+}
+
+/* Regla 7
+En el elemento `th` y `td` pon un borde de 1 pixel solido y el color #dddddd, el texto tiene que estar alineado a la izquierda, y poner un padding de 8 pixeles */
+
+th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Regla 8 */
+/* En el elemento `th` pon un color de fondo que sera el gris */
+
+th{
+    background-color: grey;
+}
+
+/* Regla 9
+En el elemento `hr` pon un borde solido */
+
+hr{
+    border: solid;
+}
+
+/* Regla 10 */
+/* En el elemento `header` pon un color de fondo que sera el lightblue */
+
+header{
+    background-color: lightblue;
+}
